@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+    body, body.dark{
+        justify-self: normal;
+     }
+    .header, body.dark .header{
+        display: block;
+    }
+    .mode-switcher, body.dark .mode-switcher{
+        justify-content: left;
+        gap: 50%;
+    }
+    .break-line, body.dark .break-line{
+        display: block;
+    }
+    .top-box-container, .overview-container, body.dark .top-box-container, body.dark .overview-container{
+        display: block;
+    }
+    .user-container, .overview-box, body.dark .user-container, body.dark .overview-box{
+        margin-top: 20px;
+    }
+}
